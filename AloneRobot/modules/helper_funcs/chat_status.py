@@ -6,7 +6,7 @@ from cachetools import TTLCache
 from telegram import Chat, ChatMember, ParseMode, Update
 from telegram.ext import CallbackContext
 
-from MukeshRobot import (
+from AloneRobot import (
     DEL_CMDS,
     DEMONS,
     DEV_USERS,
@@ -402,6 +402,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from MukeshRobot.modules import connection
+from AloneRobot.modules import connection
 
 connected = connection.connected
