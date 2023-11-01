@@ -21,7 +21,7 @@ async def gps(bot, message):
         ---------github :-TeamAloneOp -----
         ---------telegram : @ALONE_WAS_BOT-----
         """
-        geolocator = Nominatim(user_agent="legend-Mukesh")
+        geolocator = Nominatim(user_agent="legend-Alone")
 #         zoom=[0-18]
 
 
@@ -47,7 +47,7 @@ async def gps(bot, message):
         await message.reply_venue(latitude, longitude,f"{city}",f"{state} ,{country}",reply_markup=IKM(url))
     except Exception as e:
         await message.reply_text(f"I can't find that \nDue to {e}")
-@mukesh.on_message(filters.command(["distance"]))
+@alone.on_message(filters.command(["distance"]))
 async def distance(bot, message):
     await message.delete()
     if len(message.command) < 2:
@@ -73,8 +73,8 @@ async def distance(bot, message):
     except Exception as e:
         await message.reply_text(f"I can't find that \nDue to {e}")
         
-# mukesh.add_handler(MessageHandler(gps))     
-# mukesh.add_handler(MessageHandler(distance))
+# alone.add_handler(MessageHandler(gps))     
+# alone.add_handler(MessageHandler(distance))
 
 __help__ = """
 sᴇɴᴅs ʏᴏᴜ ᴛʜᴇ ɢᴘs ʟᴏᴄᴀᴛɪᴏɴ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ǫᴜᴇʀʏ...
