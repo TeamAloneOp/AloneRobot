@@ -1,4 +1,4 @@
-from MukeshRobot import DEMONS, DEV_USERS, DRAGONS, TIGERS, WOLVES, telethn
+from AloneRobot import DEMONS, DEV_USERS, DRAGONS, TIGERS, WOLVES, telethn
 
 IMMUNE_USERS = DRAGONS + WOLVES + DEMONS + TIGERS + DEV_USERS
 
