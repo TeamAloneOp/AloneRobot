@@ -99,6 +99,10 @@ buttons = [
         InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text=f"Sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
+    [
+        InlineKeyboardButton(text="Bᴏᴛ Iɴғᴏ", callback_data="alone_"),
+        InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", callback_data="source_"),
+    ],
     
 
 ]
