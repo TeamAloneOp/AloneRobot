@@ -63,7 +63,7 @@
         "value": ""
     },
     "CHATBOT_API": {
-        "description":"Get your API key from @FallenChat_Bot using /token",
+        "description":"Get your API key from @AloneXRobot using /token",
         "required": false,
         "value": ""
     },
@@ -71,7 +71,7 @@
     "OWNER_ID": {
        "description": "Your user ID as an integer.",
        "required": true,
-       "value": ""
+       "value": "6079943111"
     },
     "START_IMG": {
        "description": "Telegraph link of the image which will be shown at start command.",
@@ -79,7 +79,7 @@
        "value": ""
     },
     "SUPPORT_CHAT": {
-       "description": "Your Telegram support group chat username where your users will go and bother you with shit Example - The_support_chat.",
+       "description": "Your Telegram support group chat username where your users will go and bother you with shit Example - AlonesHeaven.",
        "required": true,
        "value": ""
     },
